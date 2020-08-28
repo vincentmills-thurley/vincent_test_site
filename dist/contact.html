@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/ffc844d7a1.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/main.css" />
+  <title>Vincent Mills-Thurley | Contact </title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="header-inner">
+    <div class="container">
+      <nav id="main-nav">
+        <img src="img/vmt.png" alt="My Portfolio" id="logo" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="contact.html" class="current">Contact</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <!-- section a: contact form -->
+
+  <section id="contact-a" class="text-center py-3">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="bottom-line"></div>
+      <p class="lead">Please Get In Touch!</p>
+      <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+        <div class="text-fields">
+          <input type="text" class="text-input name-input" placeholder="Name" name="name">
+          <input type="text" class="text-input subject-input" placeholder="Subject" name="subject">
+          <input type="email" class="text-input email-input" placeholder="Email Address" name="email">
+          <input type="text" class="text-input phone-input" placeholder="Phone Number" name="phone">
+          <textarea class="text-input message-input" placeholder="Enter Message" name="message"></textarea>
+          <div class="my-2">
+            <div data-netlify-recaptcha="true"></div>
+          </div>
+        </div>
+        <button type="submit" class="btn-dark">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- section b contact info -->
+
+  <section id="contact-b" class="py-3 bg-dark">
+    <div class="container">
+      <div class="contact-info">
+        <div>
+          <i class="fas fa-envelope fa-2x"></i>
+          <h3>Email</h3>
+          <p>vincentm.t@hotmail.com</p>
+        </div>
+        <div>
+          <i class="fas fa-phone fa-2x"></i>
+          <h3>Phone</h3>
+          <p>07786236255</p>
+        </div>
+        <div>
+          <i class="fas fa-envelope fa-2x"></i>
+          <h3>Address</h3>
+          <p>Surrey, England</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section c: tagline-->
+
+  <section id="contact-c" class="bg-main py-4">
+    <div class="container">
+      <h3>Contact Me Now</h3>
+    </div>
+  </section>
+
+
+
+  <!-- footer -->
+
+  <footer id="main-footer">
+    <div class="footer-content container">
+      <p>Copyright &copy; 2020 Vincent Mills-Thurley</p>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/vincent-mills-thurley-1b5841116/" target="_blank"><i
+            class="fab fa-linkedin fa-2x"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
